@@ -39,20 +39,20 @@ cd skin-chromaticity-map
 ```
 
 ---
-# 2. Install Dependencies
+## 2. Install Dependencies
 The project relies on standard scientific computing libraries:
 ```bash
 pip install numpy opencv-python scipy matplotlib PyQt6
 ```
 ---
 
-# 📖 Usage Guide
-## 1. Launch the Application
+## 📖 Usage Guide
+### 1. Launch the Application
 
 ```bash
 python chromaskin_pro.py
 ```
-## 2. The Workflow
+### 2. The Workflow
 1. Import: Click 📂 Import Image to load a photograph.
 2. Teach: Use the mouse to paint green strokes over the skin regions (Face, Neck, Arms).
 3. Train: Click ⚡ Train Model. The system fits a Gaussian model to your pixels.
@@ -60,7 +60,7 @@ python chromaskin_pro.py
   * Optional: Toggle "Heatmap Mode" to see probability confidence.
 5. Export: Click 💾 Export Image to save the result with the background removed.
 
-## 3. Batch Processing
+### 3. Batch Processing
 1. Train a model on one image.
 2. Click 📦 Batch Process Folder.
 3. Select an Input folder (Source photos) and Output folder.
@@ -105,11 +105,12 @@ If $P(\mathbf{x}) > \text{Threshold}$, the pixel is classified as skin.
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 ```bash
 chromaskin-pro/
 │
 ├── chromaskin_pro.py    # Single-file complete application source code
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Documentation
-└── LICENSE              # MIT License```
+└── LICENSE              # MIT License
+```
