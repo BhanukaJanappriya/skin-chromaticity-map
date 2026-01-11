@@ -302,7 +302,7 @@ class AnnotationCanvas(QGraphicsView):
 class ChromaSkinApp(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("ChromaSkin Pro - Complete Edition")
+        self.setWindowTitle("ChromaSkin Pro")
         self.resize(1400, 900)
         self.engine = ChromaSkinEngine()
         self.cached_prob_map = None
